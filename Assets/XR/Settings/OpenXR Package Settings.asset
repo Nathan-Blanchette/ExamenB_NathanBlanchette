@@ -507,6 +507,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &-933784332000519344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Metro
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &-909845670311787160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,6 +937,7 @@ MonoBehaviour:
   - {fileID: -6409557426401642420}
   - {fileID: -8209832764806861223}
   - {fileID: -6918900366600931477}
+  - {fileID: -933784332000519344}
   - {fileID: 6801439581001236420}
   - {fileID: -9104814097408922865}
   - {fileID: -2990632474281214858}
